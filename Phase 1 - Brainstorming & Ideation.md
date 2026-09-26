@@ -1,33 +1,56 @@
-# Phase 1: Problem Statement & Project Scope
+# Phase 1 – Brainstorming & Ideation
 
-## Executive Summary
-In traditional IT service management, manual intervention in fulfilling procurement requests often leads to processing delays, human error in routing, and lack of visibility for asset allocation. This project targets the automation of standard laptop procurement requests using ServiceNow Flow Designer.
+## Problem Statement
 
----
+Traditional IT procurement processes often involve manual request
+submission, approval, task creation and coordination between different
+teams.
 
-## Business Problem
-- **Manual Overhead:** Service desk technicians manually assign tasks to fulfillment teams upon item request approvals.
-- **Inconsistent Data:** Task descriptions, priority levels, and assignment fields are manually entered, leading to discrepancies.
-- **SLA Delays:** Time lost during task assignment degrades overall SLA compliance for desktop/hardware services.
+This manual process can result in delays, repeated work and difficulty
+in tracking procurement requests.
 
----
+## Proposed Solution
 
-## Objectives & Key Results (OKRs)
-* **Objective:** Fully automate task creation and routing upon order approval.
-* **Key Result 1:** Eliminate 100% of manual catalog task creation for standard laptop items.
-* **Key Result 2:** Route 100% of configuration tasks immediately to the **Hardware** group.
-* **Key Result 3:** Standardize short descriptions and initial states across all generated tasks.
+The proposed solution is to use ServiceNow to automate the IT
+procurement process.
 
----
+ServiceNow Service Catalog can be used to submit IT procurement
+requests, while Flow Designer can automate approvals, task creation
+and notifications.
 
-## Scope of Work
-### In-Scope
-- Setup and execution of a ServiceNow flow targeting standard catalog items.
-- Dynamic creation of catalog tasks (`SCTASK`) linked to requested items (`RITM`).
-- Assignment routing to specific groups (Hardware).
-- End-to-end testing in lower (Dev/PDI) environments.
+## Project Objective
 
-### Out-of-Scope
-- Third-party vendor integration or API procurement orders.
-- Custom notification script creation outside of standard workflow triggers.
-- Hardware asset inventory scanning/barcode integrations.
+The main objective of this project is to streamline the IT procurement
+process by reducing manual activities and automating the workflow.
+
+## Key Objectives
+
+- Automate IT procurement requests
+- Reduce manual task creation
+- Automate approval activities
+- Improve request tracking
+- Reduce processing delays
+- Improve communication between teams
+- Provide better visibility of procurement requests
+
+## Proposed Workflow
+
+Employee Request
+        ↓
+IT Procurement Request
+        ↓
+Manager Approval
+        ↓
+Automated Task Creation
+        ↓
+Procurement Processing
+        ↓
+Request Completion
+
+## Expected Benefits
+
+- Faster procurement processing
+- Reduced manual work
+- Better request tracking
+- Improved process visibility
+- Consistent workflow execution
