@@ -14,17 +14,17 @@ Flow Designer automates the processing of the submitted request.
 User
 ->
 ServiceNow Service Catalog
-  ↓
+->
 Procurement Request
-  ↓
+->
 Flow Designer
-  ↓
+->
 Approval
-  ↓
+->
 Automated Task Creation
-  ↓
+->
 IT/Procurement Team
-  ↓
+->
 Request Completion
 
 ## 3. Process Flow
