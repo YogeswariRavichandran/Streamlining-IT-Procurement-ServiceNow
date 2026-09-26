@@ -1,7 +1,33 @@
-# Phase 1: Brainstorming & Ideation
+# Phase 1: Problem Statement & Project Scope
 
-## Problem Statement
-The current IT procurement process lacks efficiency and automation, resulting in delays and manual overhead, particularly in handling standard laptop orders. Requests for standard laptops often require configuration, but this step is prone to oversight or delay, leading to frustration among users and inefficient resource allocation within the IT department.
+## Executive Summary
+In traditional IT service management, manual intervention in fulfilling procurement requests often leads to processing delays, human error in routing, and lack of visibility for asset allocation. This project targets the automation of standard laptop procurement requests using ServiceNow Flow Designer.
 
-## Proposed Solution / Idea
-Use ServiceNow Flow Designer to automate task generation upon request approval and route it directly to the Hardware assignment group for immediate configuration.
+---
+
+## Business Problem
+- **Manual Overhead:** Service desk technicians manually assign tasks to fulfillment teams upon item request approvals.
+- **Inconsistent Data:** Task descriptions, priority levels, and assignment fields are manually entered, leading to discrepancies.
+- **SLA Delays:** Time lost during task assignment degrades overall SLA compliance for desktop/hardware services.
+
+---
+
+## Objectives & Key Results (OKRs)
+* **Objective:** Fully automate task creation and routing upon order approval.
+* **Key Result 1:** Eliminate 100% of manual catalog task creation for standard laptop items.
+* **Key Result 2:** Route 100% of configuration tasks immediately to the **Hardware** group.
+* **Key Result 3:** Standardize short descriptions and initial states across all generated tasks.
+
+---
+
+## Scope of Work
+### In-Scope
+- Setup and execution of a ServiceNow flow targeting standard catalog items.
+- Dynamic creation of catalog tasks (`SCTASK`) linked to requested items (`RITM`).
+- Assignment routing to specific groups (Hardware).
+- End-to-end testing in lower (Dev/PDI) environments.
+
+### Out-of-Scope
+- Third-party vendor integration or API procurement orders.
+- Custom notification script creation outside of standard workflow triggers.
+- Hardware asset inventory scanning/barcode integrations.
