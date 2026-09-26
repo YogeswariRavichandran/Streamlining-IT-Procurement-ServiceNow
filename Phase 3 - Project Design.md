@@ -12,7 +12,7 @@ Flow Designer automates the processing of the submitted request.
 ## 2. System Architecture
 
 User
-  ↓
+->
 ServiceNow Service Catalog
   ↓
 Procurement Request
