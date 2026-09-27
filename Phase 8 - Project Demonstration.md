@@ -1,70 +1,103 @@
-# Phase 8 – Project Demonstration
+# PHASE 8 – PROJECT DEMONSTRATION
 
-## Project Name
+## Project Title
 
 Streamlining IT Procurement using ServiceNow
 
-## Demonstration Objective
+## 1. Introduction
 
-The demonstration video shows how the automated IT procurement process
-works in ServiceNow.
+This project demonstrates how ServiceNow can be used to automate and
+streamline the IT procurement process.
 
-## Demo Flow
+The project uses ServiceNow Service Catalog and Flow Designer to manage
+the procurement workflow.
 
-### Step 1 – Introduction
+## 2. Purpose of the Project
 
-Introduce the project and explain the problem with the traditional
-IT procurement process.
+The purpose of this project is to reduce manual activities involved in
+IT procurement and provide an automated and trackable workflow.
+
+## 3. Project Benefits
+
+The project provides the following benefits:
+
+- Reduces manual effort
+- Automates the approval process
+- Automates task creation
+- Improves request tracking
+- Reduces processing delays
+- Improves workflow visibility
+- Provides a structured procurement process
+
+## 4. Demonstration Process
+
+The project demonstration will show the complete IT procurement
+workflow.
+
+### Step 1 – Project Introduction
+
+The project title and the problem addressed by the project will be
+introduced.
 
 ### Step 2 – Service Catalog
 
-Show the IT procurement catalog item.
+The IT procurement catalog item will be displayed.
 
-Explain the information that the requester needs to enter.
+The required information for submitting the procurement request will
+be explained.
 
-### Step 3 – Submit Request
+### Step 3 – Request Submission
 
-Enter the required details and submit the procurement request.
+A sample IT procurement request will be entered and submitted.
 
 ### Step 4 – Flow Designer
 
-Open Flow Designer and show the automated procurement workflow.
+The Flow Designer workflow will be displayed.
+
+The automated steps used to process the procurement request will be
+explained.
 
 ### Step 5 – Approval
 
-Show how the request is sent for approval.
+The approval process will be demonstrated.
 
-### Step 6 – Task Creation
+The request will be sent to the appropriate approver.
 
-Show how an approved request creates the required procurement task.
+### Step 6 – Automated Task Creation
+
+After approval, the workflow will create the required procurement
+task.
+
+The generated task will be displayed.
 
 ### Step 7 – Request Tracking
 
-Show the request status and task progress.
+The request status and task progress will be demonstrated.
 
 ### Step 8 – Final Output
 
-Show the completed procurement request and final status.
+The completed procurement request and final status will be displayed.
 
-## Demonstration Content
+## 5. Demo Video Requirements
 
-The video should include:
+The demonstration video should contain:
 
-- Project Name
-- Project Purpose
-- Project Benefits
-- Project Execution
-- Working Process
-- Final Output
+- Project name
+- Project purpose
+- Project benefits
+- Screen sharing
+- Student voice-over
+- Project execution
+- Working process
+- Final output
 
-## Demo Video
+## 6. Final Outcome
 
-Google Drive Link:
+The demonstration shows the complete automated IT procurement process
+from request submission to approval, task creation and completion.
 
-[Add your public Google Drive video link here]
+## 7. Conclusion
 
-## Conclusion
-
-The demonstration shows that ServiceNow Flow Designer can automate the
-IT procurement process from request submission through approval,
-task creation and completion.
+The project demonstrates how ServiceNow can streamline IT procurement
+by automating repetitive activities and providing a structured,
+trackable workflow.
