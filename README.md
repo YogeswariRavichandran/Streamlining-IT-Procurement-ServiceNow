@@ -40,14 +40,12 @@ User Request
 → Procurement Processing
 → Completion
 
-## Team
+## Team Members
 
-Add team member names here.
-
-## Demo
-
-Add Google Drive demo video link here.
-
-## Project Status
-
-Completed / In Progress
+| Name | Role |
+|---|---|
+| Yogeswari | Team Leader & Project Developer |
+| Divya Dharshini | Project Developer |
+| Mohana Sundari | Project Developer |
+| Eswari | Project Developer |
+| Hemala | Project Developer |
